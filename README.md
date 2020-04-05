@@ -12,7 +12,7 @@ The following dependencies are necessary:
  - maven 3.6.3
 
 
-<h3>Building and starting the server
+<h3>Building and starting the server </h3>
   
 To build the backend and start the server, run the following command on the root folder of the repository:  
   
