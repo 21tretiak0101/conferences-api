@@ -63,7 +63,7 @@ After the server starts, the application is accessible at the following URL:
 
 <hr>
 
-**GET** /conferences{id}
+**GET** /conferences/{{id}}
 
 `api/v1/conferences/id`
 
