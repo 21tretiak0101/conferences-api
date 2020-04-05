@@ -14,7 +14,8 @@ import java.util.List;
 @Configuration
 public class ConferencesConfiguration {
 
-    private static final String RESOURCES_CONFERENCES_JSON = "src/main/resources/conferences.json";
+    private static final String RESOURCES_CONFERENCES_JSON =
+            ConferencesConfiguration.class.getResource("/conferences.json").getPath();
 
     @Bean
     public List<Conference> conferencesList() {
