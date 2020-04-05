@@ -4,7 +4,7 @@
  The backend is based on Java 9, Spring Boot 2. The Spring configuration is based on Java. 
 
   
- <h3>Installation dependencies
+ <h3>Installation dependencies</h3>
   
 The following dependencies are necessary:  
   
@@ -27,13 +27,12 @@ After the server starts, the application is accessible at the following URL:
 
 ## REST API documentation
 
- 
 
-***GET***/conferences
+**GET** /conferences
 
 `api/v1/conferences`
 
-Request 
+<h3>Request</h3>
 
 | Key           | Required      | Description|
 | ------------- | ------------- |------------|
@@ -43,7 +42,7 @@ Request
 | title | optional |  search by `title` (Developer Week)|
 | status | optional | search by `status` (ACCEPTED). <h6>Available values: ACCEPTED, REJECTED, PROPOSED |
 
-Response
+<h3>Response</h3>
 
 | Key           | Description     |
 | ------------- | ------------- |
@@ -62,19 +61,19 @@ Response
 |status               |       conference `status`        |
 
 
+<hr>
 
-
-***GET*** /conferences{id}
+**GET** /conferences{id}
 
 `api/v1/conferences/id`
 
-Request 
+<h3>Request</h3>
 
 | Key           | Required      | Description|
 | ------------- | ------------- |------------|
 | id            |  reqiured    | conference `id`|
 
-Response
+<h3>Response</h3>
 
 | Key           | Description     |
 | ------------- | ------------- |
